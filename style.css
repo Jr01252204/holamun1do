@@ -299,7 +299,7 @@ button{
   
 }
  .cardImag:hover{
-  height: 38vh;
+  height: auto;
   justify-content: space-between;
   flex-direction: column;
  transition: height 0.3s ease, width 0.3s ease;
