@@ -303,6 +303,8 @@ button{
   justify-content: space-between;
   flex-direction: column;
  transition: height 0.3s ease, width 0.3s ease;
+     white-space: normal;
+
 } 
 .cardImag:hover #container-Menu{
 
