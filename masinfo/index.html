@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>informacion</title>
+
+</head>
+<body>
+
+    <div id="contenedorrr">
+        <img src="sobrenosotros.jpg" alt="">
+        <div class="informacion">
+        <h2>Sobre nosotros</h3>
+        <p> Qnseqnatur nulla reiciendis in fuga aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident corporis officiis atque impedit repellat blanditiis sed maiores praesentium. Laborum voluptatibus veritatis mollitia facilis velit reiciendis esse quod tenetur eaque consequatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, doloribus quam commodi inventore veritatis eius enim quisquam voluptatibus corporis et veniam consequatur doloremque! Optio rerum voluptates quos, cum neque deleniti!</p>
+</div>
+    </div>
+    <style>
+        body{
+        margin: 0;
+        }
+        #contenedorrr{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c2a66;
+  color: #fff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  #contenedorrr img{
+    height: 100%;
+    
+  }
+  .informacion{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    gap: 2em;
+    line-height: 20px;
+    background-color: rgba(240, 255, 255, 0.033);
+      
+  }
+  .informacion h2{
+    font-size: 4em;
+    margin-top: 0.5em;
+  }
+
+@media (max-width:720px){
+    #contenedorrr{
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+    #contenedorrr img{
+        height: 80vh;
+        width: 100%;
+        image-resolution: 100%;
+        margin-top: 1em;
+    }
+    .informacion h2{
+    font-size: 2em;
+  }
+}
+    </style>
+</body>
+</html>

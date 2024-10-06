@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "inicio de el restaurante",
+			"path": "."
+		},
+		{
+			"name": "comida saludables",
+			"path": "../comida saludables"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "inicio de el restaurante"
+	}
+}

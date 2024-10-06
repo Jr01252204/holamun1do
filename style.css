@@ -1,0 +1,594 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+} 
+a {
+  text-decoration: none;
+  color: inherit; /* O puedes especificar un color, por ejemplo, color: black; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+/*inicio*/
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*MENU*/
+ @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+#container-Menu h2{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+   /*Emperador es el container de todo*/
+ #Emperador{
+    /* max-width: 480px; */
+    max-width: 100%;
+    padding: auto;
+
+ }
+ #Menu-pc{
+  width: 100%;
+  height: 5em;
+  background-color: #7faf4f00;
+  position: fixed;
+ }
+
+.abrir,
+ .cerrar{
+  display: block;
+  border: 0;
+ 
+}
+.abrir{
+  position:fixed;
+  height: 3em;
+  width: 3em;
+  background-color: #000000c7;
+  color: antiquewhite;
+  border-radius: 1em;
+}
+#Menu-pc img{
+  display: none;
+}
+
+  .navbar{
+    display: flex;
+      
+     opacity: 0;
+     width: 24vh;
+     visibility: hidden;
+     position: fixed;
+     background-color: #0a0a0af8;
+     border-radius:0;
+     top: 0;
+     bottom: 0;
+     align-items: self-start;
+     left: 0;
+     padding: 0;
+     padding: 2rem;
+     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
+     justify-content:space-between;
+     color: #fff;
+    
+  }
+  .navbar.visible{
+    opacity: 1;
+    visibility: visible;
+    
+  }
+  li{
+   
+  }
+
+  .nav-list{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    color: #fff;
+    align-items: start;
+    flex-direction: column;
+    list-style-type: none;
+
+    font-size: 1.5em;
+    font-weight:100;
+  }
+  .abrir{
+    display: block;
+  }
+
+  
+
+
+  /*INICIO DE TELEFONO */
+#inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:70vh;
+    width:100%;
+   background:  linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.272)), 
+                url('pexels-daniel-duarte-270529097-17804216.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: auto;
+    margin: auto;
+    border-radius: 100% 0% 100% 0% / 0% 51% 29% 100% ;
+   
+               
+}
+
+
+  #container-inicio{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* margin: 10px; */
+       
+  }
+
+  h1{
+    color: #fff;
+    font-size: 2.5em;
+    font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+  }
+
+
+#inicio img{
+    height: 12em;
+  width: 9em;
+    margin: 10px;
+    border-radius:100%; 
+  box-shadow: #000000;
+    
+}
+
+
+                
+
+#container-inicio p{
+     
+     color: #ffffff;
+     text-align: center;
+     font-family: "Crimson Text", sans-serif;
+     font-weight: 00;
+     font-style: normal;
+     margin: 1em;
+  
+ 
+}
+
+button{
+ 
+    margin: 0.5rem;
+    width: 10em;
+    height: 2em;
+    background-color: #2e9269; 
+    border: none;
+    color: #fff;
+}
+
+
+
+/*Menu*/
+
+#Menu{
+
+}
+#Dinero{
+  color: #000000;
+  background-color: rgb(118, 224, 162);
+}
+#container-Menu{
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  
+  
+}
+#container-Menu button{
+ margin-top: 2em;
+ top: 6em;
+ height: 5vh;
+ width: 25vh;
+ border: none;
+ background-color: #9e602e;
+ border-radius: 2em;
+ color: #fff;
+ font: 1em sans-serif;
+ 
+}
+            
+         
+
+#Menu h2{
+  font-size: 3.5em;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  
+}
+#Menu p{
+  text-align: center;
+  margin: em 0 1em 0;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+
+.imgContainer{
+  
+   display: flex;
+   flex-direction: column;
+   width:45vh;
+   height: auto;
+   margin-top: 1em;
+}
+
+.imgContainer::-webkit-scrollbar {
+  display: none; 
+ 
+
+}
+
+
+.imgContainer img{
+  height: 16vh;
+  width: 14vh;
+  border-radius:100px;
+  
+}
+ 
+  
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
+  width: 70%;
+  
+}
+.info p{
+  display: none;
+  transition-duration: 1s;
+  transition-delay: 1s;
+}
+
+
+
+.cardImag{
+  color: black;
+  background-color: #00000017;
+  border-radius: 2em;
+  display: flex;
+  height: 15vh;
+  width: 45vh;
+  margin-top: 1.1em; ;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+  padding: 0.1em ;
+  gap: 1em;
+  transition-duration: 1s;
+
+
+  
+ 
+}
+#informacion{
+  font-size: 1.5em;
+}
+.cardImag:hover .info p{
+  display: block;
+   
+  
+}
+ .cardImag:hover{
+  height: 38vh;
+  justify-content: space-between;
+  flex-direction: column;
+} 
+.cardImag:hover #container-Menu{
+
+
+}
+
+
+
+.cardImag p{
+  font: 1em sans-serif;
+  font-weight: 500;
+  transition-duration: 2s;
+}
+
+#Reservacion{
+  height: 100vh;
+  background-color: #2b495a;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #000;
+
+}
+
+#container-Reservacion{
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  height: 60vh;
+  gap: 1em;
+  font-size: large;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+#container-Reservacion h1{
+  font-size: 3em;
+  color: #ffffff;
+
+}
+
+/* input{
+  height: 4.5vh;
+  width: 24vh;
+  padding:1em;
+  border-radius: 3em;
+} */
+.ubicacion{
+  width: 23em;
+  height: 150em;
+  background-color: #000000;
+  border-radius: 2.5em;
+
+}
+.boton{
+  background-color: rgb(57, 151, 57);
+  padding: 0.5em 1em;
+  margin-top: ;
+  border-radius: 1em;
+  color: white;
+  font-size: 1em;
+}
+#container-Reservacion p{
+  margin: 1em;
+}
+
+              
+.boton{
+  animation-name: boton;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes boton{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-10px);}
+    100% {transform: translateY(0);}
+}
+            
+.mapa{
+  width: 100%;
+  height: 13em;
+}
+#Sobrenosotros{
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  text-align: center;
+  color: #fff;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  text-anchor: middle;
+  
+}
+#Sobrenosotros p{
+  margin: 0 3em 0 3em;
+}
+
+/*aqui es sobre la seccion sobre nosotros.*/
+
+
+
+/*AQUI PONDRE TODO LO DE LA PLATILLA DE LAS CARD*/
+
+
+@media (min-width: 740px){
+  .imgContainer{
+    overflow-y: auto;
+  }
+}
+
+
+/*VERSION DE PC */
+@media (min-width: 740px){
+
+#Emperador{
+  max-width: 100%;
+
+  
+
+}
+#inicio img{
+    border-radius: 2em;
+    width: 60%;
+    height: 45vh;
+    display: none;
+}
+#inicio p{
+  margin: 0 4em 0 4em;
+}
+
+#inicio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.619), rgba(0, 0, 0, 0)), 
+  url('pexels-daniel-duarte-270529097-17804216.jpg');
+
+  background-position:center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  width: 100%;
+  height: 115vh;
+}
+
+#container-inicio{
+  display: flex;
+  flex-direction: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.6em;
+}
+
+  #Menu-pc{
+    justify-content: space-between;
+    display: flex;
+    max-width: 100%;
+    height: 7em;
+    background-color: #1d1a15fb;
+    position:fixed;
+  }
+  #Menu-pc img{
+    
+    height: 6em;
+    border-radius: 2.5em;
+    margin-left: 30px;
+  }
+  .cerrar{
+    display: none;
+  }
+  .abrir{
+    display: none;
+  }
+
+  .navbar{
+
+  display: flex;
+  flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    gap: 2em;
+    width: 100%; 
+    height: auto;
+    position: sticky;
+    opacity: 1;
+    visibility: inherit;
+    background-color: #ffffff00;
+    box-shadow: none;
+  
+  }
+
+  
+  .nav-list{
+    gap: 6em;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-weight: 1000;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .nav-list li:hover{
+      padding: 0.5em;
+      background-color: #7a81763d;
+  }
+  #Menu h2{
+    margin-top: 3em;
+    font-size: 4em;
+  }
+  #container-Menu p {
+
+  }
+  #container-Menu{
+    height: auto;
+    width: 100%;background:  linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0)), 
+    url('');
+    background-position: center center;
+  
+    
+  }
+  .imgContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+ margin: auto 4em 0 4em;
+  width: auto;
+  flex-wrap:wrap ;
+  justify-content: center;
+  gap:1em;
+  height: auto;
+  margin-top: 0;
+  box-sizing:border-box;
+  
+
+}
+.parrafo{
+  margin: 2em 9em 0 9em;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cardImag{
+  height: 35vh;
+  width: 20vh;
+  flex-direction: column;
+  border-radius: 0;
+  margin: 2em;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+
+}
+.cardImag img{
+  width: 100%;
+  border-radius: 0;
+  height: 26vh;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.cardImag:hover{
+  width: 30vh;
+  height: 48vh;
+  border-radius: 2em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+}
+.cardImag:hover.cardImag img{
+  border-radius: 50%;
+  width: 50%;
+  height: 20vh;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+}
+}
